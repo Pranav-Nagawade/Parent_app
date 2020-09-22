@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/icons_kid"
+            android:title="@string/kid" />
+        <item
+            android:id="@+id/nav_all_categories"
+            android:icon="@drawable/ic_courses"
+            android:title="@string/all_courses" />
+        />
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/ic_login"
+                    android:title="@string/login" />
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_profile"
+                    android:title="@string/profile" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/abc_vector_test"
+                    android:title="@string/logout" />
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Share">
+        <menu>
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_share"
+                    android:title="@string/share" />
+                <item
+                    android:id="@+id/nav_rate_us"
+                    android:icon="@drawable/ic_rating"
+                    android:title="@string/rate_us" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

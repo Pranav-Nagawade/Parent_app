@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Prototype</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+
+    <string name="logo_name">Learn The New Way</string>
+    <string name="slogan_name">The new learning exp</string>
+
+    <!--      Menu Names      -->
+    <string name="home">HOME</string>
+    <string name="kid">KIDS</string>
+    <string name="all_courses">ALL COURSES</string>
+
+
+    <string name="login">Login</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+
+    <string name="share">Share</string>
+    <string name="rate_us">Rate Us</string>
+
+    <!-- Strings for Dashboard   -->
+
+    <!-- Categories -->
+
+    <string name="restaurants">Restaurants</string>
+    <string name="shops">Shops</string>
+    <string name="banks">Bank</string>
+    <string name="education">Education</string>
+
+    <!-- Titeles and Description -->
+
+    <string name="featured_locations_description">All the locations that are featured locations</string>
+    <string name="view_all">View All</string>
+
+</resources>
